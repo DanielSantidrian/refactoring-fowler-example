@@ -30,7 +30,7 @@ public class Rental {
 	/**
 	 * @return
 	 */
-	public double amountFor() {
+	public double getCharge() {
 		
 		double result=0;
 		
