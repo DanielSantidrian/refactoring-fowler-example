@@ -55,7 +55,7 @@ public class Rental {
 	/**
 	 * @return
 	 */
-	int getFrecuentRenterPoints() {
+	public int getFrecuentRenterPoints() {
 		
 		int frequentRenterPoints=0;
 		
