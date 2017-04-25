@@ -4,10 +4,11 @@ package ubu.gii.dass.refactoring;
 public class Aplicacion {
 
 	public static void main(String[] arg) {
-		Movie m1 = new Movie("Sky Captain", 1);
-		Movie m2 = new Movie("Alejandro Magno", 1);
-		Movie m3 = new Movie("Accion Mutante", 0);
-		Movie m4 = new Movie("Hermano Oso", 2);
+		
+		Movie m1 = new Movie("Sky Captain", new TypeMovie("NEW_RELEASE", 3, 0, 0));
+		Movie m2 = new Movie("Alejandro Magno", new TypeMovie("NEW_RELEASE", 3, 0, 0));
+		Movie m3 = new Movie("Accion Mutante", new TypeMovie("REGULAR", 1.5, 2, 2));
+		Movie m4 = new Movie("Hermano Oso", new TypeMovie("CHILDREN", 1.5,1.5,3));
 
 		Customer c1 = new Customer("Manuel");
 
